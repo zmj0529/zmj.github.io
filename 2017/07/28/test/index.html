@@ -1,362 +1,640 @@
-<!doctype html>
-<html>
+<!DOCTYPE html>
+
+
+
+  
+
+
+<html class="theme-next muse use-motion" lang="">
 <head>
-    <!--Setting-->
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <meta name="renderer" content="webkit|ie-comp|ie-stand">
-    <meta name="apple-mobile-web-app-capable"  content="yes">
-    <meta name="apple-mobile-web-app-status-bar-style" content="black">
-    <meta name="format-detection" content="telephone=no,email=no">
+  <meta charset="UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+
+
+
+
+
+
+
+
+
+<meta http-equiv="Cache-Control" content="no-transform" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  <link href="/lib/fancybox/source/jquery.fancybox.css?v=2.1.5" rel="stylesheet" type="text/css" />
+
+
+
+
+  
+  
+  
+  
+
+  
     
     
-    <!--Simple SEO-->
+  
 
+  
 
-<meta name="robots" content=all />
-<meta name="google" content=all />
-<meta name="googlebot" content=all />
-<meta name="verify" content=all />
-    <!--Title-->
+  
 
-<title>test | 小懿的空间</title>
+  
 
-<link rel="alternate" href="/atom.xml" title="小懿的空间" type="application/atom+xml">
+  
 
-
-<link rel="icon" href="/favicon.ico">
-
+  
     
-<link rel="stylesheet" href="/css/base.css">
-<link rel="stylesheet" href="/css/pages/post.css">
-<link rel="stylesheet" href="//cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.min.css">
-<link rel="stylesheet" href="/css/thirdParty/highlight/github.css">
-<link rel="stylesheet" href="/css/pages/comments.css">
-
-    <!--script-->
+    
+    <link href="//fonts.googleapis.com/css?family=Lato:300,300italic,400,400italic,700,700italic&subset=latin,latin-ext" rel="stylesheet" type="text/css">
+  
 
 
 
-<script async src="//dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js"></script>
-
-<!--<script src="https://imsun.github.io/gitment/dist/gitment.browser.js"></script>-->
 
 
-<script src="/js/thirdParty/gitment.browser.min.js"></script>
-<script>
-  var labels = "blog,gitment";
-  labels = labels.split(",");
-  var gitment = new Gitment({
-    id: window.location.pathname,
-    owner: "GeekaholicLin",
-    repo: "geekaholiclin.github.io",
-    oauth: {
-      client_id: "aa2215dfc8ee944d1205",
-      client_secret: "77cd2afa5d161bc0ab04639ed81300d808c6e22b"
+
+<link href="/lib/font-awesome/css/font-awesome.min.css?v=4.6.2" rel="stylesheet" type="text/css" />
+
+<link href="/css/main.css?v=5.1.1" rel="stylesheet" type="text/css" />
+
+
+  <meta name="keywords" content="Hexo, NexT" />
+
+
+
+
+
+  <link rel="alternate" href="/atom.xml" title="小懿的空间" type="application/atom+xml" />
+
+
+
+
+  <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico?v=5.1.1" />
+
+
+
+
+
+
+<meta property="og:type" content="article">
+<meta property="og:title" content="test">
+<meta property="og:url" content="http://yoursite.com/2017/07/28/test/index.html">
+<meta property="og:site_name" content="小懿的空间">
+<meta property="og:updated_time" content="2017-07-28T13:15:51.000Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="test">
+
+
+
+<script type="text/javascript" id="hexo.configurations">
+  var NexT = window.NexT || {};
+  var CONFIG = {
+    root: '/',
+    scheme: 'Muse',
+    sidebar: {"position":"left","display":"post","offset":12,"offset_float":0,"b2t":false,"scrollpercent":false,"onmobile":false},
+    fancybox: true,
+    motion: true,
+    duoshuo: {
+      userId: '0',
+      author: 'Author'
     },
-    perPage: "20",
-    labels: labels
-  });
+    algolia: {
+      applicationID: '',
+      apiKey: '',
+      indexName: '',
+      hits: {"per_page":10},
+      labels: {"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}
+    }
+  };
 </script>
 
-    
-    
+
+
+  <link rel="canonical" href="http://yoursite.com/2017/07/28/test/"/>
+
+
+
+
+
+  <title>test | 小懿的空间</title>
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 </head>
 
-<body id="normal">
-<!--[if lte IE 8]>
-<style>
-    html{ font-size: 1em }
-</style>
-<![endif]-->
-<!--[if lte IE 9]>
-<style>
-    header{ top: 71px; position: absolute!important;}
-    #container{padding-top: 151px!important;}
-</style>
-<div style="position:fixed;z-index:9999;left:0;top:0;width:100%;height:70px;background-color:#e0e0e0;color:#396CA5;border-bottom:1px solid #cecece;text-align:center;line-height:70px;white-space: nowrap;overflow: hidden;text-overflow: ellipsis">你使用的浏览器版本过低，为了你更好的阅读体验，请更新浏览器的版本或者使用其他现代浏览器，比如Chrome、Firefox、Safari等。</div>
-<![endif]-->
+<body itemscope itemtype="http://schema.org/WebPage" lang="">
 
-<div id="wrap">
-    <header  style="position: absolute;" >
-    <div id="site-meta">
-        <a href="/" id="logo">
-            <h1 class="title">小懿的空间</h1>
-        </a>
-        
-    </div>
-    <ul id="nav">
-        
-            <li><a href="/"><i class="fa fa-home"></i>首頁</a></li>
-        
-            <li><a href="/atom.xml"><i class="fa fa-rss"></i>RSS</a></li>
-        
-        <li id="search"><a href="javascript:void(0)"><i class="fa fa-search"></i>搜尋</a></li>
-    </ul>
-</header>
-
-    <div id="container">
-        
-<ul id="sidebar">
-    
-    
-<li class="widget notification">
-    <i class="fa fa-bell-o"></i>
-    <div>
-        
-<p>主题ylion v0.0.0版本即将上线，敬请期待~！
-主题作者：<a href="https://github.com/GeekaholicLin"
-title="fork me" target="_blank">Geekaholic</a></p>
-    </div>
-</li>
-
-    
-    
-
-    
-    
-<li class="widget widget-normal archive">
-  <h3 class="fa fa-archive widget-title">彙整</h3>
-    <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2017/07/"><i class="fa" aria-hidden="true">July 2017</i></a><span class="archive-list-count">3</span></li></ul>
-</li>
-
-
-    
-    
-<li class="widget widget-normal popular-posts" id="popular-posts">
-    <h3 class="fa fa-thermometer-3 widget-title">熱門文章</h3>
-    <ul id="popular-content">
-        <li class="load-first"><i class="fa fa-spinner fa-pulse"></i></li>
-    </ul>
-</li>
-
-    
-    
-    
-    
-<li class="widget widget-normal friends-link">
-    <h3 class="fa fa-globe widget-title">友鏈</h3><br/>
-
-    
-        <a href="http://geekaholiclin.github.io" class="fa" target="_blank">主题作者</a>
-
-    
-
-</li>
-
-    
-</ul>
-
-
-        <div id="main">
-    <article id="post">
-        <div id="post-header">
-
-            <h1 id="test">
-                
-                test
-                
-            </h1>
-            <div class="article-meta">
-    
-    
-    <span class="categories-meta fa-wrap">
-            <i class="fa fa-folder-open-o"></i>
-        <span>null</span>
-    </span>
-    
-    
-    <span class="fa-wrap">
-         <i class="fa fa-tags"></i>
-        <span class="tags-meta">
-            
-            null
-            
-        </span>
-    </span>
-    
-    
-    <span class="fa-wrap">
-        <i class="fa fa-clock-o"></i>
-        <span class="date-meta ">2017/07/28</span>
-    </span>
-    
-    
-    <span class="fa-wrap">
-            <i class="fa fa-thermometer-three-quarters"></i>
-        <span class="hits hits-meta " data-leadcloud-title="test"
-              data-leadcloud-url="/2017/07/28/test/"><i class="fa fa-spinner fa-spin"></i></span>
-    </span>
-    
-    
-</div>
-
-            
-            
-        </div>
-        
-        <div id="post-body">
-            
-        </div>
-        <div id="post-footer">
-            <div class="avatar" >
-                <img src="http://example.com/author.jpg" alt="avatar"/>
-                
-                <a href="javascript:void(0)" class="high-song">high起来 &#128541;</a>
-                
-                
-                <a href="javascript:void(0)" class="donate fa">赠我一杯 &#128536;</a>
-                
-            </div>
-            <ul class="author-profile-section">
-                <li>作者:
-                    
-                    <a href="/about.html">zmj</a>
-                </li>
-                <li>發表日期: <span>2017-07-28  09:15:51</span></li>
-                
-                <li>最後編輯日期: <span>2017-07-28  09:15:51</span></li>
-                
-                <li class="post-category">
-                    文章分類:
-                    
-                </li>
-                <li class="post-tags">
-                    文章標簽:
-                    
-                </li>
-                
-                <li> 版權聲明: <a href="https://creativecommons.org/licenses/by-nc-nd/3.0/" target="_blank">
-知识共享署名-非商业性使用-禁止演绎 3.0 未本地化版本许可协议（CC BY-NC-ND 3.0）
-</a></li>
-                
-            </ul>
-            <div id="donate-wrap">
-                
-                
-                
-                <img src="http://example.com/alipay.jpg" alt="支付宝付款" class="donate-img">
-                
-                <img src="http://example.com/wechat.png" alt="微信付款" class="donate-img">
-                
-                
-            </div>
-        </div>
-    </article>
-    <div class="article-nav">
-        
-        <a href="/2017/07/29/post-name/" class="pre-post fa fa-caret-left">post name</a>
-        
-        
-        <a href="/2017/07/28/hello-world/" class="next-post fa">Hello World</a>
-        
-    </div>
-    
-    <div id="comments">
-        
-
-<script>
-  gitment.render(document.getElementById("comments"));
-</script>
-
-
-
-    </div>
-    
-</div>
-
-
-    </div>
-    <footer id="footer">
-    
-    <div class="social">
-        
-        <a href="https://www.example1.com" class="fa fa-free-code-camp" target="_blank" title="freecodecamp"></a>
-        
-        <a href="https://www.example2.com" class="fa fa-github" target="_blank" title="Follow me~"></a>
-        
-    </div>
-    
-    <div>
-        
-        <a href="/" class="copyright-links">zmj</a>&copy;2015 - 2017.All Rights
-        Reserved.
-    </div>
-    <p>Powered by <a href="https://hexo.io" class="copyright-links" target="_blank">Hexo</a> | Theme by <a
-                href="https://github.com/GeekaholicLin" class="copyright-links" target="_blank">GeekaholicLin</a>
-    </p>
-    
-    
-    <p>
-        <span id="busuanzi_container_site_uv" class="fa fa-bar-chart">
-        欢迎第<span id="busuanzi_value_site_uv"><i class="fa fa-spinner fa-spin"></i></span>位小伙伴~
-        </span>
-    </p>
-    
-</footer>
-
-</div>
-    <ul id="tools">
-    <li class="totop-btn fa fa-angle-up"></li>
-    <li class="exchange-btn fa fa-exchange"></li>
   
-    <li class="toc-btn fa fa-list-ul"></li>
+  
     
+  
+
+  <div class="container sidebar-position-left page-post-detail ">
+    <div class="headband"></div>
+
+    <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-wrapper">
+  <div class="site-meta ">
     
 
-    
-    <li class="comment-btn fa fa-comments-o">
-        <a href="#comments" title="comments"></a>
-    </li>
-    
-</ul>
-<p id="process"></p>
-<div id="search-overlay">
-    <div class="search-area-wrap">
-        <div id="search-area">
-            <div class="input-wrap focus">
-                <i class="fa fa-search" aria-hidden="true"></i>
-                <input id="search-input" autofocus autocomplete="off" type="text"
-                       placeholder="search this website..."/>
-            </div>
-            <ul id="search-result">
-                <li class="load-first"><i class="fa fa-spinner fa-spin"></i></li>
-            </ul>
-        </div>
+    <div class="custom-logo-site-title">
+      <a href="/"  class="brand" rel="start">
+        <span class="logo-line-before"><i></i></span>
+        <span class="site-title">小懿的空间</span>
+        <span class="logo-line-after"><i></i></span>
+      </a>
     </div>
+      
+        <p class="site-subtitle"></p>
+      
+  </div>
+
+  <div class="site-nav-toggle">
+    <button>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+    </button>
+  </div>
 </div>
 
+<nav class="site-nav">
+  
+
+  
+    <ul id="menu" class="menu">
+      
+        
+        <li class="menu-item menu-item-home">
+          <a href="/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-home"></i> <br />
+            
+            Startseite
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-archives">
+          <a href="/archives/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-archive"></i> <br />
+            
+            Archiv
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-tags">
+          <a href="/tags/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-tags"></i> <br />
+            
+            Tags
+          </a>
+        </li>
+      
+
+      
+    </ul>
+  
+
+  
+</nav>
+
+
+
+ </div>
+    </header>
+
+    <main id="main" class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          <div id="content" class="content">
+            
+
+  <div id="posts" class="posts-expand">
     
 
+  
 
-    <script src="/js/highsong.js"></script>
+  
+  
+  
+
+  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2017/07/28/test/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="zmj">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="小懿的空间">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">test</h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">Veröffentlicht am</span>
+              
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2017-07-28T21:15:51+08:00">
+                2017-07-28
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+      
+    </div>
+
+    <div>
+      
+        
+
+      
+    </div>
+
+    <div>
+      
+        
+
+      
+    </div>
+
+    <div>
+      
+        
+
+      
+    </div>
+
+    <footer class="post-footer">
+      
+
+      
+      
+      
+
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/2017/07/28/hello-world/" rel="next" title="Hello World">
+                <i class="fa fa-chevron-left"></i> Hello World
+              </a>
+            
+          </div>
+
+          <span class="post-nav-divider"></span>
+
+          <div class="post-nav-prev post-nav-item">
+            
+              <a href="/2017/07/29/post-name/" rel="prev" title="post name">
+                post name <i class="fa fa-chevron-right"></i>
+              </a>
+            
+          </div>
+        </div>
+      
+
+      
+      
+    </footer>
+  </article>
 
 
 
-<script src="/js/search.js"></script>
+    <div class="post-spread">
+      
+    </div>
+  </div>
+
+
+          </div>
+          
+
+
+          
+  <div class="comments" id="comments">
+    
+  </div>
+
+
+        </div>
+        
+          
+  
+  <div class="sidebar-toggle">
+    <div class="sidebar-toggle-line-wrap">
+      <span class="sidebar-toggle-line sidebar-toggle-line-first"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-middle"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-last"></span>
+    </div>
+  </div>
+
+  <aside id="sidebar" class="sidebar">
+    
+    <div class="sidebar-inner">
+
+      
+
+      
+
+      <section class="site-overview sidebar-panel sidebar-panel-active">
+        <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+          <img class="site-author-image" itemprop="image"
+               src="/images/avatar.gif"
+               alt="zmj" />
+          <p class="site-author-name" itemprop="name">zmj</p>
+           
+              <p class="site-description motion-element" itemprop="description"></p>
+          
+        </div>
+        <nav class="site-state motion-element">
+
+          
+            <div class="site-state-item site-state-posts">
+              <a href="/archives/">
+                <span class="site-state-item-count">3</span>
+                <span class="site-state-item-name">Artikel</span>
+              </a>
+            </div>
+          
+
+          
+
+          
+
+        </nav>
+
+        
+          <div class="feed-link motion-element">
+            <a href="/atom.xml" rel="alternate">
+              <i class="fa fa-rss"></i>
+              RSS
+            </a>
+          </div>
+        
+
+        <div class="links-of-author motion-element">
+          
+        </div>
+
+        
+        
+
+        
+        
+
+        
+
+
+      </section>
+
+      
+
+      
+
+    </div>
+  </aside>
+
+
+        
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="footer-inner">
+        <div class="copyright" >
+  
+  &copy; 
+  <span itemprop="copyrightYear">2017</span>
+  <span class="with-love">
+    <i class="fa fa-heart"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">zmj</span>
+</div>
+
+
+<div class="powered-by">
+  Erstellt mit  <a class="theme-link" href="https://hexo.io">Hexo</a>
+</div>
+
+<div class="theme-info">
+  Theme -
+  <a class="theme-link" href="https://github.com/iissnan/hexo-theme-next">
+    NexT.Muse
+  </a>
+</div>
+
+
+        
+
+        
+      </div>
+    </footer>
+
+    
+      <div class="back-to-top">
+        <i class="fa fa-arrow-up"></i>
+        
+      </div>
+    
+
+  </div>
+
+  
+
 <script type="text/javascript">
-    //theme config datas
-    var copyrightObj = {};
-    copyrightObj.enable = 'true';
-    copyrightObj.triggerCopyLength = '200';
-    copyrightObj.appendText = '商业转载请联系作者获得授权,非商业转载请注明出处 © example';
-    var leancloudObj = {};
-    leancloudObj.enable = 'true';
-    leancloudObj.className = 'BlogCounter';
-    leancloudObj.limits = '10';
+  if (Object.prototype.toString.call(window.Promise) !== '[object Function]') {
+    window.Promise = null;
+  }
 </script>
-<script type="text/javascript">
-    var search = {};
-    var search_path = "search.xml";
-    if (!search_path) {
-        search_path = "search.xml";
-    }
-    search.path = "/" + search_path;
-    search.func =  _ajax.init();
-</script>
-<script src="/js/app.js"></script>
 
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  <script type="text/javascript" src="/lib/jquery/index.js?v=2.1.3"></script>
+
+  
+  <script type="text/javascript" src="/lib/fastclick/lib/fastclick.min.js?v=1.0.6"></script>
+
+  
+  <script type="text/javascript" src="/lib/jquery_lazyload/jquery.lazyload.js?v=1.9.7"></script>
+
+  
+  <script type="text/javascript" src="/lib/velocity/velocity.min.js?v=1.2.1"></script>
+
+  
+  <script type="text/javascript" src="/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
+
+  
+  <script type="text/javascript" src="/lib/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/utils.js?v=5.1.1"></script>
+
+  <script type="text/javascript" src="/js/src/motion.js?v=5.1.1"></script>
+
+
+
+  
+  
+
+  
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.1.1"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=5.1.1"></script>
+
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/bootstrap.js?v=5.1.1"></script>
+
+
+
+  
+
+
+  
+
+
+
+
+	
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
 
 </body>
 </html>

@@ -4,9 +4,9 @@
   
   <link href="/atom.xml" rel="self"/>
   
-  <link href="http://yoursite.com/"/>
+  <link href="http://junze2016.com/blog/"/>
   <updated>2017-07-29T01:12:02.000Z</updated>
-  <id>http://yoursite.com/</id>
+  <id>http://junze2016.com/blog/</id>
   
   <author>
     <name>zmj</name>
@@ -17,8 +17,8 @@
   
   <entry>
     <title>post name</title>
-    <link href="http://yoursite.com/2017/07/29/post-name/"/>
-    <id>http://yoursite.com/2017/07/29/post-name/</id>
+    <link href="http://junze2016.com/blog/2017/07/29/post-name/"/>
+    <id>http://junze2016.com/blog/2017/07/29/post-name/</id>
     <published>2017-07-29T01:12:02.000Z</published>
     <updated>2017-07-29T01:12:02.000Z</updated>
     
@@ -31,8 +31,8 @@
   
   <entry>
     <title>test</title>
-    <link href="http://yoursite.com/2017/07/28/test/"/>
-    <id>http://yoursite.com/2017/07/28/test/</id>
+    <link href="http://junze2016.com/blog/2017/07/28/test/"/>
+    <id>http://junze2016.com/blog/2017/07/28/test/</id>
     <published>2017-07-28T13:15:51.000Z</published>
     <updated>2017-07-28T13:15:51.000Z</updated>
     
@@ -45,8 +45,8 @@
   
   <entry>
     <title>Hello World</title>
-    <link href="http://yoursite.com/2017/07/28/hello-world/"/>
-    <id>http://yoursite.com/2017/07/28/hello-world/</id>
+    <link href="http://junze2016.com/blog/2017/07/28/hello-world/"/>
+    <id>http://junze2016.com/blog/2017/07/28/hello-world/</id>
     <published>2017-07-28T13:05:26.000Z</published>
     <updated>2017-07-28T13:05:26.000Z</updated>
     
